@@ -338,17 +338,19 @@
 
             
 
-            <form action="#" class="p-5 bg-white">
+            <form action="https://formspree.io/f/mvoeqpll"
+                  method="POST"
+                  class="p-5 bg-white">
               
-              <h2 class="h4 text-black mb-5">Contact Form</h2> 
+            <h2 class="h4 text-black mb-5">Vuoi contattarci o proporci esperienze?</h2> 
 
               <div class="row form-group">
                 <div class="col-md-6 mb-3 mb-md-0">
-                  <label class="text-black" for="fname">First Name</label>
+                  <label class="text-black" for="fname">Nome</label>
                   <input type="text" id="fname" class="form-control rounded-0">
                 </div>
                 <div class="col-md-6">
-                  <label class="text-black" for="lname">Last Name</label>
+                  <label class="text-black" for="lname">Cognome</label>
                   <input type="text" id="lname" class="form-control rounded-0">
                 </div>
               </div>
@@ -357,28 +359,28 @@
                 
                 <div class="col-md-12">
                   <label class="text-black" for="email">Email</label> 
-                  <input type="email" id="email" class="form-control rounded-0">
+                  <input type="email" name="email" id="email" class="form-control rounded-0">
                 </div>
               </div>
 
               <div class="row form-group">
                 
                 <div class="col-md-12">
-                  <label class="text-black" for="subject">Subject</label> 
+                  <label class="text-black" for="subject">Oggetto</label> 
                   <input type="subject" id="subject" class="form-control rounded-0">
                 </div>
               </div>
 
               <div class="row form-group">
                 <div class="col-md-12">
-                  <label class="text-black" for="message">Message</label> 
-                  <textarea name="message" id="message" cols="30" rows="7" class="form-control rounded-0" placeholder="Leave your message here..."></textarea>
+                  <label class="text-black" for="message">Messaggio</label> 
+                  <textarea name="message" id="message" cols="30" rows="7" class="form-control rounded-0" placeholder="Scrivi qui..." name="message"></textarea>
                 </div>
               </div>
 
               <div class="row form-group">
                 <div class="col-md-12">
-                  <input type="submit" value="Send Message" class="btn btn-primary mr-2 mb-2">
+                  <input type="submit" value="Invio" class="btn btn-primary mr-2 mb-2">
                 </div>
               </div>
 
